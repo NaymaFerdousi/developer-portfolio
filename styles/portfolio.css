@@ -15,6 +15,17 @@
     border: 0;
     padding: 18px 35px;
 }
+.btn-contact{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #FD6E0A;
+    /* border: 0; */
+    padding: 18px 35px;
+}
 .header{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
@@ -38,6 +49,7 @@ nav ul{
 nav li{
     list-style: none;
     margin-left: 50px;
+    font-size: 20px;
 }
 /* banner styles */
 .banner{
@@ -156,4 +168,27 @@ section{
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px
+    ;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
