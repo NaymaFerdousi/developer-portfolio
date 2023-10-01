@@ -23,7 +23,6 @@
     border-radius: 5px;
     background: #FFFFFF;
     border: 1px solid #FD6E0A;
-    /* border: 0; */
     padding: 18px 35px;
 }
 .header{
@@ -175,9 +174,11 @@ section{
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
+    margin: 0;
 }
 .contact .section-title{
     text-align: left;
+    margin-left: 10px;
 }
 .contact input[type="text"],input[type="email"], textarea{
     margin-bottom: 24px;
